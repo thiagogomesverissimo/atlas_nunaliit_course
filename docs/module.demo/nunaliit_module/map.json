@@ -1,0 +1,73 @@
+{
+	"coordinates": {
+		"initialBounds": [-75.72,45.41,-75.67,45.43]
+		,"autoInitialBounds": false
+	}
+	,"backgrounds": [
+		{ 
+			"name": "OSM"
+			,"type": "osm"
+			,"options": {
+			}
+		}
+		,{ 
+			"name": "Google Satellite"
+			,"type": "Google Maps"
+			,"options": {
+				"type": "SATELLITE"
+				, "numZoomLevels": 19 
+			}
+		}
+		,{ 
+			"name": "Google Hybrid"
+			,"type": "Google Maps"
+			,"options": {
+				"type": "HYBRID"
+				,"numZoomLevels": 19
+			}
+		}
+		,{ 
+			"name": "Google Physical"
+			,"type": "Google Maps"
+			,"options": {
+				"type": "TERRAIN"
+				,"numZoomLevels": 16
+			}
+		}
+	]
+	,"overlays": [
+		{
+			"id": "public_demo"
+			,"name": {
+				"nunaliit_type":"localized"
+				,"en":"Demo"
+			}
+			,"type": "couchdb"
+			,"options": {
+				"layerName": "public_demo"
+			}
+			,"featurePopupDelayMs": 0
+			,"useHoverSound": true
+			,"clustering": {
+				"distance": 20
+                ,"threshold": 1
+                ,"disableDynamicClustering": false
+                ,"clusterPointsOnly": false
+                ,"minimumLinePixelSize": 20
+                ,"minimumPolygonPixelSize": 20
+			}
+		}
+	]
+	,"addPointsOnly": false
+	,"showSRSAttribution": true
+	,"toggleClick": true
+	,"styles":[
+		{
+			"condition": "onLayer('public_demo')"
+			,"label": "Public Demo"
+			,"normal": {
+				"fill":"#ffff33"
+			}
+		}
+	]
+}

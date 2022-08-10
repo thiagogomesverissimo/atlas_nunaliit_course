@@ -1,0 +1,16 @@
+[
+	{
+		"select": "demo_media.caption",
+		"label": "caption",
+		"type": "text"
+	},
+	{
+		"select": "demo_media.credit",
+		"label": "credit",
+		"type": "text"
+	},
+	{
+		"select": "demo_media.null",
+		"type": "json"
+	}
+]

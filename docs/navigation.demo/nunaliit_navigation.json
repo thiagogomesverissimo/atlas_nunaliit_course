@@ -1,0 +1,31 @@
+{
+	"nunaliit_type":"navigation"
+	,"title":{
+		"nunaliit_type":"localized"
+		,"en":"Atlas"
+		,"fr":"L'Atlas"
+	}
+	,"items":[
+		{
+			"title": {
+				"nunaliit_type":"localized"
+				,"en":"Default Module"
+				,"fr":"Module de Base"
+			}
+			,"module": "module.demo"
+			,"items":[
+				{
+					"module": "module.demo"
+				}
+			]
+		}
+		,{
+			"title": {
+				"nunaliit_type":"localized"
+				,"en":"Tools"
+				,"fr":"Outils"
+			}
+			,"href": "./tools/index.html"
+		}
+	]
+}

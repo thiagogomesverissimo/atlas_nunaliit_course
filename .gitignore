@@ -1,0 +1,11 @@
+# Nunaliit .gitignore
+################################
+
+/htaccess
+/config/sensitive.properties
+/dump
+/extra
+/logs
+/media/*
+/upgrade
+
