@@ -1,0 +1,66 @@
+<div class="n2_documentDisplay">
+	<div class="n2_layoutFloat">
+		<div class="travel_media">
+			<div class="title">
+				<div class="label n2s_localize">Place</div>
+				<div class="end"></div>
+			</div>
+			{{#travel_media}}
+				{{#if identifier}}
+					<div class="travel_media_identifier">
+						<div class="label n2s_localize">Identifier</div>
+						<div class="value">{{identifier}}</div>
+						<div class="end"></div>
+					</div>
+				{{/if}}
+			{{/travel_media}}
+			{{#travel_media}}
+				{{#if description}}
+					<div class="travel_media_description">
+						<div class="label n2s_localize">Description</div>
+						<div class="value n2s_preserveSpaces">{{description}}</div>
+						<div class="end"></div>
+					</div>
+				{{/if}}
+			{{/travel_media}}
+			{{#travel_media}}
+				<div class="travel_media_attributes">
+					<div class="label n2s_localize">Attributes</div>
+					<div class="value">
+						{{#archaeological}}
+							<div class="n2s_localize">archaeological</div>
+						{{/archaeological}}
+						{{#unique_landspace}}
+							<div class="n2s_localize">Unique Landspace</div>
+						{{/unique_landspace}}
+						{{#fauna}}
+							<div class="n2s_localize">Fauna</div>
+						{{/fauna}}
+						{{#flora}}
+							<div class="n2s_localize">Flora</div>
+						{{/flora}}
+						{{#other}}
+							<div class="n2s_localize">Other</div>
+						{{/other}}
+					</div>
+					<div class="end"></div>
+				</div>
+			{{/travel_media}}
+			{{#travel_media}}
+				{{#if park_entrance}}
+					<div class="travel_media_park_entrance">
+						<div class="label n2s_localize">Type</div>
+						<div class="value n2s_select" n2-choice="{{park_entrance}}">
+							<span class="n2s_choice n2s_localize" n2-choice="1">1</span>
+							<span class="n2s_choice n2s_localize" n2-choice="2">2</span>
+							<span class="n2s_choice n2s_localize" n2-choice="3">3</span>
+							<span class="n2s_choice n2s_localize" n2-choice="4">4</span>
+							<span class="n2s_choiceDefault">{{park_entrance}}</span>
+						</div>
+						<div class="end"></div>
+					</div>
+				{{/if}}
+			{{/travel_media}}
+		</div>
+	</div>
+</div>

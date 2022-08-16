@@ -1,0 +1,77 @@
+{
+	"id": "media"
+	,"group": "travel"
+	,"label": "Document"
+	,"relatedSchemas": [ "demo_media" ]
+	,"initialLayers": [ "public" ]
+	,"attributes": [
+		{
+			"type":"title"
+			,"label":"Place"
+			,"includedInBrief":true
+		}
+		,{
+			"type":"string"
+			,"id":"identifier"
+			,"label":"Identifier"
+			,"includedInBrief":true
+		}		
+		,{
+			"type":"string"
+			,"id":"description"
+			,"label":"Description"
+			,"textarea": true
+			,"includedInBrief":false
+		}
+		,{
+			"type":"checkbox_group"
+			,"id":"attributes"
+			,"label":"Attributes"
+			,"checkboxes": [
+				{
+					"id": "archaeological"
+					,"label": "archaeological"
+				}
+				,{
+					"id": "unique_landspace"
+					,"label": "Unique Landspace"
+				}
+				,{
+					"id": "fauna"
+					,"label": "Fauna"
+				}
+				,{
+					"id": "flora"
+					,"label": "Flora"
+				}
+				,{
+					"id": "other"
+					,"label": "Other"
+				}
+			]
+		}
+		,{
+			"type":"selection"
+			,"id":"park_entrance"
+			,"label":"Type"
+			,"options":[
+				{
+					"label": "1"
+					,"value": "1"
+				}
+				,{
+					"label": "2"
+					,"value": "2"
+				}
+				,{
+					"label": "3"
+					,"value": "3"
+				}
+				,{
+					"label": "4"
+					,"value": "4"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+[
+	{
+		"select": "travel_media.identifier",
+		"label": "identifier",
+		"type": "text"
+	},
+	{
+		"select": "travel_media.description",
+		"label": "description",
+		"type": "text"
+	},
+	{
+		"select": "travel_media.attributes",
+		"label": "attributes",
+		"type": "json"
+	},
+	{
+		"select": "travel_media.park_entrance",
+		"label": "park_entrance",
+		"type": "json"
+	}
+]

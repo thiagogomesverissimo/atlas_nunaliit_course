@@ -1,0 +1,11 @@
+{
+	"travel_media": {
+		"caption": "",
+		"credit": ""
+	},
+	"nunaliit_attachments": {
+		"nunaliit_type": "attachment_descriptions",
+		"files": {"media": {"data": {}}}
+	},
+	"nunaliit_schema": "travel_media"
+}

@@ -1,0 +1,16 @@
+[
+	{
+		"select": "travel_media.caption",
+		"label": "caption",
+		"type": "text"
+	},
+	{
+		"select": "travel_media.credit",
+		"label": "credit",
+		"type": "text"
+	},
+	{
+		"select": "travel_media.null",
+		"type": "json"
+	}
+]

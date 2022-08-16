@@ -1,0 +1,66 @@
+<div class="n2_documentForm">
+	<div class="n2_layoutFloat">
+		<div class="travel_media">
+			<div class="title">
+				<div class="label n2s_localize">Place</div>
+				<div class="end"></div>
+			</div>
+			{{#travel_media}}
+				<div class="travel_media_identifier">
+					<div class="label n2s_localize">Identifier</div>
+					<div class="value">{{#:field}}identifier{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/travel_media}}
+			{{#travel_media}}
+				<div class="travel_media_description">
+					<div class="label n2s_localize">Description</div>
+					<div class="value">{{#:field}}description,textarea{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/travel_media}}
+			{{#travel_media}}
+				<div class="travel_media_attributes">
+					<div class="label n2s_localize">Attributes</div>
+					<div class="value">
+						<div>
+							<input type="checkbox" class="{{#:input}}archaeological{{/:input}}" id="attributes_archaeological"/>
+								<label for="attributes_archaeological" class="n2s_localize">archaeological</label>
+						</div>
+						<div>
+							<input type="checkbox" class="{{#:input}}unique_landspace{{/:input}}" id="attributes_unique_landspace"/>
+								<label for="attributes_unique_landspace" class="n2s_localize">Unique Landspace</label>
+						</div>
+						<div>
+							<input type="checkbox" class="{{#:input}}fauna{{/:input}}" id="attributes_fauna"/>
+								<label for="attributes_fauna" class="n2s_localize">Fauna</label>
+						</div>
+						<div>
+							<input type="checkbox" class="{{#:input}}flora{{/:input}}" id="attributes_flora"/>
+								<label for="attributes_flora" class="n2s_localize">Flora</label>
+						</div>
+						<div>
+							<input type="checkbox" class="{{#:input}}other{{/:input}}" id="attributes_other"/>
+								<label for="attributes_other" class="n2s_localize">Other</label>
+						</div>
+					</div>
+					<div class="end"></div>
+				</div>
+			{{/travel_media}}
+			{{#travel_media}}
+				<div class="travel_media_park_entrance">
+					<div class="label n2s_localize">Type</div>
+					<div class="value">
+						<select class="{{#:input}}park_entrance{{/:input}}">
+							<option class="n2s_localize" value="1">1</option>
+							<option class="n2s_localize" value="2">2</option>
+							<option class="n2s_localize" value="3">3</option>
+							<option class="n2s_localize" value="4">4</option>
+						</select>
+					</div>
+					<div class="end"></div>
+				</div>
+			{{/travel_media}}
+		</div>
+	</div>
+</div>

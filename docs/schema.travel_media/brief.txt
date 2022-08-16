@@ -1,0 +1,14 @@
+<span class="travel_media_brief">
+	<span class="n2s_localize travel_media_brief_decoration">Media (</span>
+	{{#travel_media}}
+		{{#if caption}}
+			<span class="travel_media_caption">{{caption}}</span>
+		{{/if}}
+	{{/travel_media}}
+	{{#travel_media}}
+		{{#if credit}}
+			<span class="travel_media_credit"> {{credit}}</span>
+		{{/if}}
+	{{/travel_media}}
+	<span class="travel_media_brief_decoration">)</span>
+</span>

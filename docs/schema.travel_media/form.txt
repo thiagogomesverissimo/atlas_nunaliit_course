@@ -1,0 +1,24 @@
+<div class="n2_documentForm">
+	<div class="n2_layoutFloat">
+		<div class="travel_media">
+			<div class="title">
+				<div class="label n2s_localize">Demo Media</div>
+				<div class="end"></div>
+			</div>
+			{{#travel_media}}
+				<div class="travel_media_caption">
+					<div class="label n2s_localize">Caption</div>
+					<div class="value">{{#:field}}caption,textarea,placeholder=Caption{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/travel_media}}
+			{{#travel_media}}
+				<div class="travel_media_credit">
+					<div class="label n2s_localize">Credit</div>
+					<div class="value">{{#:field}}credit,placeholder=Credit{{/:field}}</div>
+					<div class="end"></div>
+				</div>
+			{{/travel_media}}
+		</div>
+	</div>
+</div>

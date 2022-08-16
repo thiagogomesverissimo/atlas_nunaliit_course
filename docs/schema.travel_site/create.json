@@ -1,0 +1,14 @@
+{
+	"travel_media": {
+		"identifier": "",
+		"other": false,
+		"fauna": false,
+		"park_entrance": "",
+		"flora": false,
+		"description": "",
+		"unique_landspace": false,
+		"archaeological": false
+	},
+	"nunaliit_schema": "travel_media",
+	"nunaliit_layers": ["public"]
+}

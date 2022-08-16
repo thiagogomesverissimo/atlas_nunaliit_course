@@ -1,0 +1,11 @@
+[
+	{
+		"utilityType": "assignLayerOnDocumentCreation"
+		,"layerId": "public_sites"
+	},
+	{
+		"utilityType": "assignLayerOnDocumentCreation"
+		,"layerId": "public"
+		,"onlyWithGeometries": true
+	}
+]
