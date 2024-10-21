@@ -1,3 +1,9 @@
+Curso:
+
+- https://www.youtube.com/watch?v=F9wuRkd5-gg
+- https://www.youtube.com/watch?v=GfjudUZgCCA
+
+
 dev env:
 
     git clone ...
